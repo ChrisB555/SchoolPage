@@ -1,0 +1,103 @@
+ <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Despre</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+          rel="stylesheet">
+         <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet"/>
+         <link href="C:\IT\Home\proiect.css" rel="stylesheet">
+        
+    </head>
+    <body>
+<!---navbar-->
+        <nav class="navbar container-fluid">
+            <a href="C:\ItSchool\Proiect\Home\home.html" target="_self">
+                <img src="https://itschool-clone.netlify.app/img/itschool-logo.png" alt="logo" class="logo"/>
+            </a>   
+            <div class="nav-links">
+                <a href="C:\ItSchool\Proiect\Home\cursuri.html" target="_self">CURSURI ONLINE</a>
+                <div class="nav-dropdown">
+                    <a class="drop" href="C:\ItSchool\Proiect\Home\cursuri.html" >
+                    DESPRE NOI <i class="ri-arrow-drop-down-fill"></i>
+                    </a>            
+                    <ul class="nav-dropdown-menu">
+                      <li><a class="dropdown-item" href="C:\ItSchool\Proiect\Home\home.html">IT SCHOOL</a></li>
+                      <li><a class="dropdown-item" href="C:\ItSchool\Proiect\Home\cursuri.html">DESPRE NOI</a></li>
+                    
+                    </ul>
+                  </div>
+                  <a href="C:\ItSchool\Proiect\Home\despre_mine.html">DESPRE MINE</a>           
+                <a href="C:\ItSchool\Proiect\Home\contact.html">CONTACT</a>
+            </div>    
+        </nav>
+<!---responsive nav-->
+        <div class="navbar-responsive container-fluid">
+            <a href="C:\ItSchool\Proiect\Home\home.html" target="_self">
+                <img src="https://itschool-clone.netlify.app/img/itschool-logo.png" alt="logo" class="logo"/>
+            </a> 
+            <div id="links" class="burger-links">
+                <ul>
+                    <li><a href="C:\ItSchool\Proiect\Home\cursuri.html"target="_self" >CURSURI ONLINE</a> </li>
+                    <li><a href="C:\ItSchool\Proiect\Home\cursuri.html" target="_self">DESPRE NOI</a> </li>
+                    <li> <a href="C:\ItSchool\Proiect\Home\despre_mine.html">DESPRE MINE</a></li>
+                    <li><a href="C:\ItSchool\Proiect\Home\contact.html" target="_self">CONTACT</a></li>
+                </ul>                       
+            </div>
+                 <button id="burger"><i class="ri-menu-fill"></i></button>
+                 <button id="close" ><i class="ri-close-line"></i></button>
+           </div>
+         
+       
+       
+<!---main-->
+        <div class="cursuri-container ">
+            <h1 class="cursuri-h">Trainerii IT School</h1>
+        </div> 
+<!---cards-->
+        <div class="trainer-container  responsive-trainer"> 
+            <div class="trainer-card trainer-card-unu">
+                <img src="https://itschool-clone.netlify.app/img/razvan.jpeg" class="trainer-img-unu"/>
+                <button class="trainer-btn">Răzvan Cîrlugea</button>
+                <p>"Specialitatea mea este Front-End Development-ul, așadar limbajul meu de programare de 
+                    suflet este JavaScript. Bineînțeles, dacă vorbim de Front-End, alți camarazi buni de-ai
+                     mei sunt HTML și CSS (chit că nu sunt limbaje de programare)." Răzvan a devenit trainer
+                      înainte de a lucra full-time ca și programator 😀.</p>
+            </div> 
+            <div class="trainer-card">
+                <img src="https://itschool-clone.netlify.app/img/marius.png" class="trainer-img"/>
+                <button class="trainer-btn">Marius Furcic</button>
+                <p>Marius este Front-end Web Developer și lucrează în domeniu de mai bine de 6 ani. Este mereu
+                     în căutare de noi provocări și nu se abate din calea lor până nu găsește soluția. Motto-ul 
+                     său este “Calculatorul nu greșește niciodată.”</p>
+            </div>  
+            <div class="trainer-card">
+                <img src="https://itschool-clone.netlify.app/img/alex.jpeg" class="trainer-img"/>
+                <button class="trainer-btn">Alex Zmed</button>
+                <p>Alex lucrează în domeniu de peste 6 ani. Fiind pasionat de tot ceea ce ține de web, Alex este
+                     Front-end Developer în timpul zilei, mentor IT School după lucru și iubitor de somn pe timpul
+                      nopții.</p>
+            </div>  
+            <div class="trainer-card">
+                <img src="https://itschool-clone.netlify.app/img/ema.jpeg" class="trainer-img"/>
+                <button class="trainer-btn">Ema Enescu</button>
+                <p>Ema este Front-end Web Developer și activează în domeniul IT de mai bine de 6 ani. Iubește la
+                    fel de mult codul curat cât și o carte bună sau o călătorie la mare depărtare de casă.</p>
+            </div>  
+        </div>
+<!--footer-->      
+<footer class="footer">
+    <p>IT School România © 2021. Toate drepturile rezervate.</p>
+</footer>
+<script src="C:\ItSchool\Proiect\Home\burger.js"></script> 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+crossorigin="anonymous"></script>
+</body>
+</html> 
